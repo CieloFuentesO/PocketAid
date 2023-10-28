@@ -1,0 +1,193 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+	<ScrollView android:id="@+id/olvidaste" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+			<View   android:id="@+id/_bg__olvidaste"
+				android:background="@drawable/_bg__olvidaste_shape"
+				 android:layout_marginStart="0dp"
+				android:layout_marginTop="0dp"
+				android:layout_width="390dp"
+				android:layout_height="844dp" />
+
+
+			<RelativeLayout android:id="@+id/tituloolvidaste"
+				android:layout_marginTop="80dp"
+				android:layout_marginStart="51dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View   android:id="@+id/_bg__tituloolvidaste_ek1"
+					android:background="@drawable/_bg__tituloolvidaste_ek1_shape"
+					 android:layout_marginStart="-51dp"
+					android:layout_marginTop="-80dp"
+					android:layout_width="288.14dp"
+					android:layout_height="63.76dp" />
+
+				<TextView android:id="@+id/preguntaolvidaste"
+					android:textStyle="bold"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="18sp"
+					android:textColor="@color/_bg__tituloolvidaste_ek1_color"
+					android:layout_marginLeft="36dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="216dp"
+					android:layout_height="27.8dp"
+					android:text="@string/preguntaolvidaste_string"
+					 />
+
+				<TextView android:id="@+id/textoolvidaste"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="15sp"
+					android:textColor="@color/_bg__tituloolvidaste_ek1_color"
+					android:layout_marginLeft="-3dp"
+					android:layout_marginTop="34dp"
+					android:layout_width="294.4dp"
+					android:layout_height="32.63dp"
+					android:text="@string/textoolvidaste_string"
+					 />
+
+			</RelativeLayout>
+
+
+			<RelativeLayout android:id="@+id/botonrecuperar"
+				android:layout_marginTop="319dp"
+				android:layout_marginStart="56dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View   android:id="@+id/_bg___botonrecuperar_ek1"
+					android:background="@drawable/_bg___botonrecuperar_ek1_shape"
+					 android:layout_marginStart="-56dp"
+					android:layout_marginTop="-319dp"
+					android:layout_width="288dp"
+					android:layout_height="31dp" />
+
+				<View   android:id="@+id/fondorecuperar"
+					android:background="@drawable/fondorecuperar_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="288dp"
+					android:layout_height="31dp" />
+
+				<TextView android:id="@+id/textorecuperar"
+					android:textStyle="bold"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="15sp"
+					android:textColor="@color/textorecuperar_color"
+					android:layout_marginLeft="25dp"
+					android:layout_marginTop="7dp"
+					android:layout_width="239dp"
+					android:layout_height="21.76dp"
+					android:text="@string/textorecuperar_string"
+					 />
+
+			</RelativeLayout>
+
+			<TextView android:id="@+id/volver"
+				android:textStyle="italic"
+				android:layout_gravity="center_horizontal|center"
+				android:gravity="center"
+				android:textSize="12sp"
+				android:textColor="@color/volver_color"
+				android:layout_marginLeft="54dp"
+				android:layout_marginTop="356dp"
+				android:layout_width="294.2dp"
+				android:layout_height="27.2dp"
+				android:text="@string/volver_string"
+				 />
+
+
+			<RelativeLayout android:id="@+id/correoelectronico"
+				android:layout_marginTop="197dp"
+				android:layout_marginStart="51dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View   android:id="@+id/_bg__correoelectronico_ek1"
+					android:background="@drawable/_bg__correoelectronico_ek1_shape"
+					 android:layout_marginStart="-51dp"
+					android:layout_marginTop="-197dp"
+					android:layout_width="288.14dp"
+					android:layout_height="74.73dp" />
+
+				<View   android:id="@+id/fondocorreo"
+					android:background="@drawable/fondocorreo_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="31dp"
+					android:layout_width="288dp"
+					android:layout_height="44dp" />
+
+				<TextView android:id="@+id/titulotexto"
+					android:textStyle="bold"
+					android:textSize="15sp"
+					android:textColor="@color/_bg__tituloolvidaste_ek1_color"
+					android:layout_marginLeft="0dp"
+					android:layout_marginTop="1dp"
+					android:layout_width="302.4dp"
+					android:layout_height="32.63dp"
+					android:text="@string/titulotexto_string"
+					 />
+
+				<TextView android:id="@+id/correotexto"
+					android:textStyle="bold"
+					android:textSize="15sp"
+					android:textColor="@color/correotexto_color"
+					android:layout_marginLeft="50dp"
+					android:layout_marginTop="44dp"
+					android:layout_width="236.84dp"
+					android:layout_height="21.76dp"
+					android:text="@string/correotexto_string"
+					 />
+
+
+				<RelativeLayout android:id="@+id/email"
+					android:layout_marginTop="43dp"
+					android:layout_marginStart="17dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<View   android:id="@+id/_bg__email_ek1"
+						android:background="@drawable/_bg__email_ek1_shape"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="24dp"
+						android:layout_height="24dp" />
+
+					<ImageView android:id="@+id/cuadradocarta"
+						android:src="@drawable/cuadradocarta"
+						android:contentDescription="cuadradocarta"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="24dp"
+						android:layout_height="24dp" />
+
+					<ImageView android:id="@+id/carta"
+						android:src="@drawable/carta"
+						android:contentDescription="carta"
+						 android:layout_marginStart="2dp"
+						android:layout_marginTop="4dp"
+						android:layout_width="20dp"
+						android:layout_height="16dp" />
+
+				</RelativeLayout>
+
+			</RelativeLayout>
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

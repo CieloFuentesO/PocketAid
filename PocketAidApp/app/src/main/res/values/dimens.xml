@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="introduction_title_dimen">25sp</dimen>
+    <dimen name="skip_text_dimen">15sp</dimen>
+    <dimen name="intro_row_title_dimen">15sp</dimen>
+    <dimen name="intro_row_content_dimen">12sp</dimen>
+    <dimen name="introduction_row_number_dimen">35sp</dimen>
+    <dimen name="alternative_text_dimen">18sp</dimen>
+    <dimen name="login_register_tiles_dimen">18sp</dimen>
+    <dimen name="signin_register_text_dimen">12sp</dimen>
+</resources>

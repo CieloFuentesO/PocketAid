@@ -1,0 +1,37 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+	<ScrollView android:id="@+id/welcome" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+			<ImageView
+				android:id="@+id/fondosplash"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_marginTop="0dp"
+				android:gravity="center"
+				android:contentDescription="fondosplash"
+				android:src="@drawable/fondosplash" />
+
+			<ImageView
+				android:id="@+id/logosinfondo"
+				android:layout_width="216dp"
+				android:layout_height="205dp"
+				android:layout_alignParentStart="true"
+				android:layout_alignParentTop="true"
+				android:layout_alignParentEnd="true"
+				android:layout_marginStart="99dp"
+				android:layout_marginTop="329dp"
+				android:layout_marginEnd="75dp"
+				android:contentDescription="logosinfondo"
+				android:src="@drawable/logosinfondo" />
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

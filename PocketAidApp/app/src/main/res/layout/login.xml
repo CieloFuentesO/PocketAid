@@ -1,0 +1,376 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	xmlns:app="http://schemas.android.com/apk/res-auto">
+
+	<ScrollView android:id="@+id/login"
+		android:layout_width="wrap_content"
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" >
+
+			<View   android:id="@+id/_bg__login"
+				android:background="@drawable/_bg__login_shape"
+				android:layout_marginStart="0dp"
+				android:layout_marginTop="0dp"
+				android:layout_width="390dp"
+				android:layout_height="844dp" />
+
+			<TextView android:id="@+id/titulologin"
+				android:textStyle="bold"
+				android:textSize="18sp"
+				android:textColor="@color/titulologin_color"
+				android:layout_marginLeft="52dp"
+				android:layout_marginTop="349dp"
+				android:layout_width="187.8dp"
+				android:layout_height="33.8dp"
+				android:text="@string/titulologin_string"
+				/>
+
+
+			<RelativeLayout android:id="@+id/botoniniciar"
+				android:layout_marginTop="581dp"
+				android:layout_marginStart="50dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View   android:id="@+id/_bg___botoniniciar_ek1"
+					android:background="@drawable/_bg___botoniniciar_ek1_shape"
+					android:layout_marginStart="-50dp"
+					android:layout_marginTop="-581dp"
+					android:layout_width="288dp"
+					android:layout_height="31dp" />
+
+				<View   android:id="@+id/fondoiniciar"
+					android:background="@drawable/fondoiniciar_shape"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="288dp"
+					android:layout_height="31dp" />
+
+				<TextView android:id="@+id/textoiniciar"
+					android:textStyle="bold"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="15sp"
+					android:textColor="@color/_bg__login_color"
+					android:layout_marginLeft="25dp"
+					android:layout_marginTop="7dp"
+					android:layout_width="239dp"
+					android:layout_height="21.76dp"
+					android:text="@string/textoiniciar_string"
+					/>
+
+			</RelativeLayout>
+
+
+			<RelativeLayout android:id="@+id/otrasopciones"
+				android:layout_marginTop="635dp"
+				android:layout_marginStart="50dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View   android:id="@+id/_bg__otrasopciones_ek1"
+					android:background="@drawable/_bg__otrasopciones_ek1_shape"
+					android:layout_marginStart="-50dp"
+					android:layout_marginTop="-635dp"
+					android:layout_width="288dp"
+					android:layout_height="23.8dp" />
+
+				<TextView android:id="@+id/textoopciones"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:alpha="0.5"
+					android:textSize="12sp"
+					android:textColor="@color/textoopciones_color"
+					android:layout_marginLeft="103dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="85.18dp"
+					android:layout_height="27dp"
+					android:text="@string/textoopciones_string"
+					/>
+
+				<ImageView android:id="@+id/linea2opciones"
+					android:src="@drawable/linea2opciones"
+					android:contentDescription="linea2opciones"
+					android:alpha="0.20000000298023"
+					android:layout_marginStart="-1dp"
+					android:layout_marginTop="11dp"
+					android:layout_width="96.23dp"
+					android:layout_height="1dp" />
+
+				<ImageView android:id="@+id/linea1opciones"
+					android:src="@drawable/linea1opciones"
+					android:contentDescription="linea1opciones"
+					android:alpha="0.20000000298023"
+					android:layout_marginStart="191dp"
+					android:layout_marginTop="11dp"
+					android:layout_width="96.23dp"
+					android:layout_height="1dp" />
+
+			</RelativeLayout>
+
+			<TextView android:id="@+id/_recuperar_cuenta"
+				android:textStyle="italic"
+				android:layout_gravity="center_vertical|end"
+				android:gravity="end"
+				android:textSize="12sp"
+				android:textColor="@color/textoopciones_color"
+				android:layout_marginLeft="204dp"
+				android:layout_marginTop="546.73dp"
+				android:layout_width="138.2dp"
+				android:layout_height="27.2dp"
+				android:text="@string/_recuperar_cuenta_string"
+				/>
+
+			<androidx.constraintlayout.widget.ConstraintLayout
+				android:id="@+id/clRegisterWithGoogle"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="80dp"
+				android:layout_marginTop="700dp"
+				android:layout_marginEnd="80dp"
+				app:layout_constraintEnd_toEndOf="parent"
+				app:layout_constraintStart_toStartOf="parent"
+				app:layout_constraintTop_toBottomOf="@+id/otrasopciones"
+				app:layout_constraintBottom_toTopOf="@+id/_registro">
+
+				<include
+					android:id="@+id/viewRegister"
+					layout="@layout/view_button_signin_register_google"
+					app:layout_constraintBottom_toBottomOf="parent"
+					app:layout_constraintEnd_toEndOf="parent"
+					app:layout_constraintStart_toStartOf="parent"
+					app:layout_constraintTop_toTopOf="parent" />
+			</androidx.constraintlayout.widget.ConstraintLayout>
+
+			<TextView
+				android:id="@+id/_registro"
+				android:layout_width="156.2dp"
+				android:layout_height="27.2dp"
+				android:layout_alignParentBottom="true"
+				android:layout_gravity="center_horizontal|center"
+				android:layout_marginLeft="119dp"
+				android:layout_marginTop="741dp"
+				android:layout_marginBottom="75dp"
+				android:gravity="center"
+				android:text="@string/_registro_string"
+				android:textColor="@color/textoopciones_color"
+				android:textSize="12sp"
+				android:textStyle="italic" />
+
+
+			<RelativeLayout android:id="@+id/correoelectronico"
+				android:layout_marginTop="387dp"
+				android:layout_marginStart="52dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View   android:id="@+id/_bg__correoelectronico_ek1"
+					android:background="@drawable/_bg__correoelectronico_ek1_shape"
+					android:layout_marginStart="-52dp"
+					android:layout_marginTop="-387dp"
+					android:layout_width="288.14dp"
+					android:layout_height="74.73dp" />
+
+				<View   android:id="@+id/fondocorreo"
+					android:background="@drawable/fondocorreo_shape"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="31dp"
+					android:layout_width="288dp"
+					android:layout_height="44dp" />
+
+				<TextView android:id="@+id/titulotexto"
+					android:textStyle="bold"
+					android:textSize="15sp"
+					android:textColor="@color/titulologin_color"
+					android:layout_marginLeft="0dp"
+					android:layout_marginTop="1dp"
+					android:layout_width="302.4dp"
+					android:layout_height="32.63dp"
+					android:text="@string/titulotexto_string"
+					/>
+
+				<TextView android:id="@+id/correotexto"
+					android:textStyle="bold"
+					android:textSize="15sp"
+					android:textColor="@color/correotexto_color"
+					android:layout_marginLeft="50dp"
+					android:layout_marginTop="44dp"
+					android:layout_width="236.84dp"
+					android:layout_height="21.76dp"
+					android:text="@string/correotexto_string"
+					/>
+
+
+				<RelativeLayout android:id="@+id/email"
+					android:layout_marginTop="43dp"
+					android:layout_marginStart="17dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<View   android:id="@+id/_bg__email_ek1"
+						android:background="@drawable/_bg__email_ek1_shape"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="24dp"
+						android:layout_height="24dp" />
+
+					<ImageView android:id="@+id/cuadradocarta"
+						android:src="@drawable/cuadradocarta"
+						android:contentDescription="cuadradocarta"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="24dp"
+						android:layout_height="24dp" />
+
+					<ImageView android:id="@+id/carta"
+						android:src="@drawable/carta"
+						android:contentDescription="carta"
+						android:layout_marginStart="2dp"
+						android:layout_marginTop="4dp"
+						android:layout_width="20dp"
+						android:layout_height="16dp" />
+
+				</RelativeLayout>
+
+			</RelativeLayout>
+
+
+			<RelativeLayout android:id="@+id/contra"
+				android:layout_marginTop="471.73dp"
+				android:layout_marginStart="52.12dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View   android:id="@+id/_bg__contra_ek1"
+					android:background="@drawable/_bg__contra_ek1_shape"
+					android:layout_marginStart="-52dp"
+					android:layout_marginTop="-472dp"
+					android:layout_width="288.14dp"
+					android:layout_height="74.73dp" />
+
+				<View   android:id="@+id/fondocontra"
+					android:background="@drawable/fondocontra_shape"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="31dp"
+					android:layout_width="288dp"
+					android:layout_height="44dp" />
+
+				<TextView android:id="@+id/contra_ek2"
+					android:textSize="28sp"
+					android:textColor="@color/correotexto_color"
+					android:layout_marginLeft="54dp"
+					android:layout_marginTop="47dp"
+					android:layout_width="244.14dp"
+					android:layout_height="24.37dp"
+					android:text="@string/contra_ek2_string"
+					/>
+
+				<TextView android:id="@+id/titulocontra"
+					android:textStyle="bold"
+					android:textSize="15sp"
+					android:textColor="@color/titulologin_color"
+					android:layout_marginLeft="-0dp"
+					android:layout_marginTop="1dp"
+					android:layout_width="302.4dp"
+					android:layout_height="32.63dp"
+					android:text="@string/titulocontra_string"
+					/>
+
+
+				<RelativeLayout android:id="@+id/candadoicono"
+					android:layout_marginTop="42dp"
+					android:layout_marginStart="19dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<View   android:id="@+id/_bg__candadoicono_ek1"
+						android:background="@drawable/_bg__candadoicono_ek1_shape"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="24dp"
+						android:layout_height="24dp" />
+
+
+					<RelativeLayout android:id="@+id/grupocandado"
+						android:layout_marginTop="0dp"
+						android:layout_marginStart="0dp"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						>
+
+						<View   android:id="@+id/_bg__grupocandado_ek1"
+							android:background="@drawable/_bg__grupocandado_ek1_shape"
+							android:layout_marginStart="0dp"
+							android:layout_marginTop="0dp"
+							android:layout_width="24dp"
+							android:layout_height="24dp" />
+
+						<ImageView android:id="@+id/cuadradocandado"
+							android:src="@drawable/cuadradocandado"
+							android:contentDescription="cuadradocandado"
+							android:layout_marginStart="0dp"
+							android:layout_marginTop="0dp"
+							android:layout_width="24dp"
+							android:layout_height="24dp" />
+
+						<ImageView android:id="@+id/candado"
+							android:src="@drawable/candado"
+							android:contentDescription="candado"
+							android:layout_marginStart="3dp"
+							android:layout_marginTop="1dp"
+							android:layout_width="18dp"
+							android:layout_height="21dp" />
+
+					</RelativeLayout>
+
+				</RelativeLayout>
+
+
+				<RelativeLayout android:id="@+id/ocultaricono"
+					android:layout_marginTop="41dp"
+					android:layout_marginStart="253dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<View   android:id="@+id/_bg__ocultaricono_ek1"
+						android:background="@drawable/_bg__ocultaricono_ek1_shape"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="24dp"
+						android:layout_height="24dp" />
+
+					<ImageView android:id="@+id/ojoicono"
+						android:src="@drawable/ojoicono"
+						android:contentDescription="ojoicono"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="2.4dp"
+						android:layout_width="24dp"
+						android:layout_height="19.2dp" />
+
+				</RelativeLayout>
+
+			</RelativeLayout>
+
+			<ImageView android:id="@+id/logosinfondo"
+				android:src="@drawable/logosinfondo"
+				android:contentDescription="logosinfondo"
+				android:layout_marginStart="75dp"
+				android:layout_marginTop="42dp"
+				android:layout_width="243dp"
+				android:layout_height="243dp" />
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

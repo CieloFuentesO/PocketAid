@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">PocketAidApp</string>
+    <string name="txt_btn_login">Ya tengo una cuenta</string>
+    <string name="txt_btn_login_with_google">Continuar con Google</string>
+    <string name="txt_signin">Iniciar Sesión</string>
+    <string name="txt_register">Registro</string>
+    <string name="txt_hint_name">Juan </string>
+    <string name="txt_name_tile">Nombre</string>
+    <string name="txt_last_name_tile">Apellidos</string>
+    <string name="txt_hint_last_name">Pérez</string>
+    <string name="txt_genre">Sexo</string>
+    <string name="txt_radio_btn_genre_fem">Femenino</string>
+    <string name="txt_radio_btn_genre_mas">Masculino</string>
+
+    <string name="ek_img_content">ExportKit Image</string>
+    <string name="textohemo_string">Hemorragia nasal</string>
+    <string name="tecnicarcp_string">RCP</string>
+    <string name="tecnicarbab_string">Respiracin Boca a Boca</string>
+    <string name="textorban_string">Respiracin Boca a Nariz</string>
+    <string name="maniobra_de_heimlich_string">Maniobra de Heimlich</string>
+    <string name="textoquema_string">Quemaduras</string>
+    <string name="titulotecnicas_string">Empieza a aprender como salvar vidas</string>
+    <string name="textobusqueda_string">Buscar tcnica</string>
+
+    <string name="titulologin_string">Iniciar sesin</string>
+    <string name="textoiniciar_string">Iniciar</string>
+    <string name="textoopciones_string">Otras opciones</string>
+    <string name="_recuperar_cuenta_string"><u>Recuperar cuenta</u></string>
+    <string name="_registro_string"><u>No tienes una cuenta?</u></string>
+    <string name="titulotexto_string">Correo electrnico</string>
+    <string name="correotexto_string">hola@correo.com</string>
+    <string name="contra_ek2_string">. . . . . . . . .</string>
+    <string name="titulocontra_string">Contrasea</string>
+    <string name="tituloregistro_string">Empieza a cuidar a los demás</string>
+
+    <string name="preguntaolvidaste_string">Olvidaste tu contrasea?</string>
+    <string name="textoolvidaste_string">No te preocupes, escribe tu correo y te enviaemos un cdigo para la recuperacin</string>
+    <string name="textorecuperar_string">Recuperar contrasea</string>
+    <string name="volver_string"><u>Volver</u></string>
+
+    <string name="titulorecuperacion_string">Recuperacin de contrasea</string>
+    <string name="subdosrecupera_string">Utilice el siguiente formulario pararestaurar su contrasea</string>
+    <string name="subunorecupera_string">Usted solicit actualizar su contrasea olvidada para el usuario USER</string>
+    <string name="contra_ek5_string">. . . . . . . . .</string>
+    <string name="tituloconfirmacontra_string">Confirmar contrasea</string>
+    <string name="textorestaurar_string">Restaurar contrasea</string>
+
+    <string name="textouno_string">1</string>
+    <string name="pasouno_string">Con la cabeza inclinada hacia atrs, cierra la boca de la persona empujando el mentn.</string>
+    <string name="textodos_string">2</string>
+    <string name="pasodos_string">Sella tu boca alrededor de la nariz o de la boca de la persona y SOPLA.</string>
+    <string name="textotres_string">3</string>
+    <string name="pasotres_string">Si es posible abre la boca de la persona entre soplos para que salga el aire.</string>
+    <string name="tituloemergencia_string">APLICA LA TCNICA EN EL PUNTO ROJO</string>
+    <string name="textonumeroemergencias_string">LLAMA A EMERGENCIAS116 o 117</string>
+</resources>

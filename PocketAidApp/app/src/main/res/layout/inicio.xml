@@ -1,0 +1,491 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+	<ScrollView android:id="@+id/inicio" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+			<View   android:id="@+id/_bg__inicio"
+				android:background="@drawable/_bg__inicio_shape"
+				 android:layout_marginStart="0dp"
+				android:layout_marginTop="0dp"
+				android:layout_width="390dp"
+				android:layout_height="844dp" />
+
+
+			<RelativeLayout android:id="@+id/botonhemo"
+				android:layout_marginTop="621dp"
+				android:layout_marginStart="38dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View   android:id="@+id/_bg__botonhemo_ek1"
+					android:background="@drawable/_bg__botonhemo_ek1_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="143dp"
+					android:layout_height="182dp" />
+
+				<View   android:id="@+id/fondohemo"
+					android:background="@drawable/fondohemo_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="143dp"
+					android:layout_height="182dp" />
+
+				<ImageView android:id="@+id/imagenhemo"
+					android:src="@drawable/imagenhemo"
+					android:contentDescription="imagenhemo"
+					 android:layout_marginStart="16dp"
+					android:layout_marginTop="11.83dp"
+					android:layout_width="112dp"
+					android:layout_height="114dp" />
+
+				<TextView android:id="@+id/textohemo"
+					android:textStyle="bold"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="18sp"
+					android:textColor="@color/_bg__botonhemo_ek1_color"
+					android:layout_marginLeft="6dp"
+					android:layout_marginTop="128.83dp"
+					android:layout_width="133dp"
+					android:layout_height="45.8dp"
+					android:text="@string/textohemo_string"
+					 />
+
+			</RelativeLayout>
+
+
+			<RelativeLayout android:id="@+id/botontecnicarcp"
+				android:layout_marginTop="221dp"
+				android:layout_marginStart="38dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View   android:id="@+id/_bg___botontecnicarcp_ek1"
+					android:background="@drawable/_bg___botontecnicarcp_ek1_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="143dp"
+					android:layout_height="181dp" />
+
+				<View   android:id="@+id/fondorcp"
+					android:background="@drawable/fondorcp_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0.17dp"
+					android:layout_width="143dp"
+					android:layout_height="181dp" />
+
+				<ImageView android:id="@+id/imagenrcp"
+					android:src="@drawable/imagenrcp"
+					android:contentDescription="imagenrcp"
+					 android:layout_marginStart="16dp"
+					android:layout_marginTop="14dp"
+					android:layout_width="112dp"
+					android:layout_height="114dp" />
+
+				<TextView android:id="@+id/tecnicarcp"
+					android:textStyle="bold"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="25sp"
+					android:textColor="@color/_bg__botonhemo_ek1_color"
+					android:layout_marginLeft="5dp"
+					android:layout_marginTop="142.17dp"
+					android:layout_width="134dp"
+					android:layout_height="32.5dp"
+					android:text="@string/tecnicarcp_string"
+					 />
+
+			</RelativeLayout>
+
+
+			<RelativeLayout android:id="@+id/botontecnicarbab"
+				android:layout_marginTop="221dp"
+				android:layout_marginStart="210dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View   android:id="@+id/_bg__botontecnicarbab_ek1"
+					android:background="@drawable/_bg__botontecnicarbab_ek1_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="143dp"
+					android:layout_height="181dp" />
+
+				<View   android:id="@+id/fondorbab"
+					android:background="@drawable/fondorbab_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0.17dp"
+					android:layout_width="143dp"
+					android:layout_height="181dp" />
+
+				<ImageView android:id="@+id/imagenrbab"
+					android:src="@drawable/imagenrbab"
+					android:contentDescription="imagenrbab"
+					 android:layout_marginStart="16dp"
+					android:layout_marginTop="12dp"
+					android:layout_width="112dp"
+					android:layout_height="96dp" />
+
+				<TextView android:id="@+id/tecnicarbab"
+					android:textStyle="bold"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="18sp"
+					android:textColor="@color/_bg__botonhemo_ek1_color"
+					android:layout_marginLeft="6dp"
+					android:layout_marginTop="124dp"
+					android:layout_width="133dp"
+					android:layout_height="45.8dp"
+					android:text="@string/tecnicarbab_string"
+					 />
+
+			</RelativeLayout>
+
+
+			<RelativeLayout android:id="@+id/botonrban"
+				android:layout_marginTop="421dp"
+				android:layout_marginStart="210dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View   android:id="@+id/_bg__botonrban_ek1"
+					android:background="@drawable/_bg__botonrban_ek1_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="143dp"
+					android:layout_height="182dp" />
+
+				<View   android:id="@+id/fondorban"
+					android:background="@drawable/fondorban_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="143dp"
+					android:layout_height="182dp" />
+
+				<ImageView android:id="@+id/imagenrban"
+					android:src="@drawable/imagenrban"
+					android:contentDescription="imagenrban"
+					 android:layout_marginStart="16dp"
+					android:layout_marginTop="10dp"
+					android:layout_width="112dp"
+					android:layout_height="96dp" />
+
+				<TextView android:id="@+id/textorban"
+					android:textStyle="bold"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="18sp"
+					android:textColor="@color/_bg__botonhemo_ek1_color"
+					android:layout_marginLeft="6dp"
+					android:layout_marginTop="130dp"
+					android:layout_width="133dp"
+					android:layout_height="45.8dp"
+					android:text="@string/textorban_string"
+					 />
+
+			</RelativeLayout>
+
+
+			<RelativeLayout android:id="@+id/botonmaniobra"
+				android:layout_marginTop="421dp"
+				android:layout_marginStart="39dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View   android:id="@+id/_bg__botonmaniobra_ek1"
+					android:background="@drawable/_bg__botonmaniobra_ek1_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="143dp"
+					android:layout_height="182dp" />
+
+				<View   android:id="@+id/fondomaniobra"
+					android:background="@drawable/fondomaniobra_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="143dp"
+					android:layout_height="182dp" />
+
+				<ImageView android:id="@+id/imagenmaniobra"
+					android:src="@drawable/imagenmaniobra"
+					android:contentDescription="imagenmaniobra"
+					 android:layout_marginStart="41dp"
+					android:layout_marginTop="10.83dp"
+					android:layout_width="62dp"
+					android:layout_height="114dp" />
+
+				<TextView android:id="@+id/maniobra_de_heimlich"
+					android:textStyle="bold"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="18sp"
+					android:textColor="@color/_bg__botonhemo_ek1_color"
+					android:layout_marginLeft="6dp"
+					android:layout_marginTop="129.83dp"
+					android:layout_width="133dp"
+					android:layout_height="45.8dp"
+					android:text="@string/maniobra_de_heimlich_string"
+					 />
+
+			</RelativeLayout>
+
+
+			<RelativeLayout android:id="@+id/botonquema"
+				android:layout_marginTop="622dp"
+				android:layout_marginStart="210dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View   android:id="@+id/_bg__botonquema_ek1"
+					android:background="@drawable/_bg__botonquema_ek1_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="143dp"
+					android:layout_height="181dp" />
+
+				<View   android:id="@+id/fondoquema"
+					android:background="@drawable/fondoquema_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="143dp"
+					android:layout_height="181dp" />
+
+				<ImageView android:id="@+id/imagenquema"
+					android:src="@drawable/imagenquema"
+					android:contentDescription="imagenquema"
+					 android:layout_marginStart="15dp"
+					android:layout_marginTop="17dp"
+					android:layout_width="112dp"
+					android:layout_height="114dp" />
+
+				<TextView android:id="@+id/textoquema"
+					android:textStyle="bold"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="18sp"
+					android:textColor="@color/_bg__botonhemo_ek1_color"
+					android:layout_marginLeft="6dp"
+					android:layout_marginTop="138dp"
+					android:layout_width="133dp"
+					android:layout_height="25.8dp"
+					android:text="@string/textoquema_string"
+					 />
+
+			</RelativeLayout>
+
+
+			<RelativeLayout android:id="@+id/botonemergencia"
+				android:layout_marginTop="735dp"
+				android:layout_marginStart="281dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View   android:id="@+id/_bg___botonemergencia_ek1"
+					android:background="@drawable/_bg___botonemergencia_ek1_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="91dp"
+					android:layout_height="91dp" />
+
+				<ImageView android:id="@+id/botonrojo"
+					android:src="@drawable/botonrojo"
+					android:contentDescription="botonrojo"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="91dp"
+					android:layout_height="91dp" />
+
+			</RelativeLayout>
+
+			<TextView android:id="@+id/titulotecnicas"
+				android:textStyle="bold"
+				android:layout_gravity="center_horizontal|center"
+				android:gravity="center"
+				android:textSize="18sp"
+				android:textColor="@color/_bg__botonhemo_ek1_color"
+				android:layout_marginLeft="35dp"
+				android:layout_marginTop="86dp"
+				android:layout_width="322dp"
+				android:layout_height="69.86dp"
+				android:text="@string/titulotecnicas_string"
+				 />
+
+
+			<RelativeLayout android:id="@+id/header"
+				android:layout_marginTop="2dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View   android:id="@+id/_bg__header_ek1"
+					android:background="@drawable/_bg__header_ek1_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="390dp"
+					android:layout_height="66dp" />
+
+				<View   android:id="@+id/fondoheader"
+					android:background="@drawable/fondoheader_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="390dp"
+					android:layout_height="66dp" />
+
+				<ImageView android:id="@+id/logo"
+					android:src="@drawable/logo"
+					android:contentDescription="logo"
+					 android:layout_marginStart="74dp"
+					android:layout_marginTop="11dp"
+					android:layout_width="214dp"
+					android:layout_height="44dp" />
+
+
+				<RelativeLayout android:id="@+id/iconomenu"
+					android:layout_marginTop="21dp"
+					android:layout_marginStart="23dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<View   android:id="@+id/_bg__iconomenu_ek1"
+						android:background="@drawable/_bg__iconomenu_ek1_shape"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="24dp"
+						android:layout_height="24dp" />
+
+
+					<RelativeLayout android:id="@+id/menu"
+						android:layout_marginTop="0dp"
+						android:layout_marginStart="0dp"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						>
+
+						<View   android:id="@+id/_bg__menu_ek1"
+							android:background="@drawable/_bg__menu_ek1_shape"
+							 android:layout_marginStart="0dp"
+							android:layout_marginTop="0dp"
+							android:layout_width="24dp"
+							android:layout_height="24dp" />
+
+						<ImageView android:id="@+id/cuadrado"
+							android:src="@drawable/cuadrado"
+							android:contentDescription="cuadrado"
+							 android:layout_marginStart="0dp"
+							android:layout_marginTop="0dp"
+							android:layout_width="24dp"
+							android:layout_height="24dp" />
+
+						<ImageView android:id="@+id/lineas"
+							android:src="@drawable/lineas"
+							android:contentDescription="lineas"
+							 android:layout_marginStart="3dp"
+							android:layout_marginTop="4dp"
+							android:layout_width="18dp"
+							android:layout_height="16dp" />
+
+					</RelativeLayout>
+
+				</RelativeLayout>
+
+			</RelativeLayout>
+
+
+			<RelativeLayout android:id="@+id/buscar"
+				android:layout_marginTop="149.83dp"
+				android:layout_marginStart="38dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View   android:id="@+id/_bg__buscar_ek1"
+					android:background="@drawable/_bg__buscar_ek1_shape"
+					 android:layout_marginStart="-1dp"
+					android:layout_marginTop="-1dp"
+					android:layout_width="315dp"
+					android:layout_height="50dp" />
+
+
+				<RelativeLayout android:id="@+id/buscador"
+					android:layout_marginTop="13dp"
+					android:layout_marginStart="24dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<View   android:id="@+id/_bg__buscador_ek1"
+						android:background="@drawable/_bg__buscador_ek1_shape"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="267dp"
+						android:layout_height="24dp" />
+
+
+					<RelativeLayout android:id="@+id/search"
+						android:layout_marginTop="0dp"
+						android:layout_marginStart="0dp"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						>
+
+						<View   android:id="@+id/_bg__search_ek1"
+							android:background="@drawable/_bg__search_ek1_shape"
+							 android:layout_marginStart="0dp"
+							android:layout_marginTop="0dp"
+							android:layout_width="24dp"
+							android:layout_height="24dp" />
+
+						<ImageView android:id="@+id/circulo"
+							android:src="@drawable/circulo"
+							android:contentDescription="circulo"
+							 android:layout_marginStart="1dp"
+							android:layout_marginTop="1dp"
+							android:layout_width="18dp"
+							android:layout_height="18dp" />
+
+						<ImageView android:id="@+id/linea"
+							android:src="@drawable/linea"
+							android:contentDescription="linea"
+							 android:layout_marginStart="14.65dp"
+							android:layout_marginTop="14.65dp"
+							android:layout_width="6.35dp"
+							android:layout_height="6.35dp" />
+
+					</RelativeLayout>
+
+					<TextView android:id="@+id/textobusqueda"
+						android:layout_gravity="center_horizontal|center"
+						android:gravity="center"
+						android:textSize="16sp"
+						android:textColor="@color/textobusqueda_color"
+						android:layout_marginLeft="29dp"
+						android:layout_marginTop="2.5dp"
+						android:layout_width="119dp"
+						android:layout_height="23.6dp"
+						android:text="@string/textobusqueda_string"
+						 />
+
+				</RelativeLayout>
+
+			</RelativeLayout>
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="introduction_title_style">
+        <item name="android:textColor">@color/g_black</item>
+        <item name="android:textSize">@dimen/introduction_title_dimen</item>
+        <item name="fontFamily">@font/lato</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="skip_intro_style">
+        <item name="android:textColor">@color/g_black</item>
+        <item name="android:textSize">@dimen/skip_text_dimen</item>
+        <item name="fontFamily">@font/lato</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="introduction_row_number_style">
+        <item name="android:textColor">@color/resalt_green</item>
+        <item name="android:textSize">@dimen/introduction_row_number_dimen</item>
+        <item name="fontFamily">@font/lato</item>
+        <item name="android:textStyle">normal|bold</item>
+    </style>
+
+    <style name="introduction_row_title_style">
+        <item name="android:textColor">@color/g_black</item>
+        <item name="android:textSize">@dimen/intro_row_title_dimen</item>
+        <item name="fontFamily">@font/lato</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="introduction_row_content_style">
+        <item name="android:textColor">@color/g_black</item>
+        <item name="android:textSize">@dimen/intro_row_content_dimen</item>
+        <item name="fontFamily">@font/lato</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="login_register_specialist_text">
+        <item name="android:textColor">@color/contrasting_gray</item>
+        <item name="android:textSize">@dimen/alternative_text_dimen</item>
+        <item name="fontFamily">@font/lato</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="login_register_button_text">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/signin_register_text_dimen</item>
+        <item name="fontFamily">@font/poppins</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="login_register_tiles">
+        <item name="android:textColor">@color/g_black</item>
+        <item name="android:textSize">@dimen/login_register_tiles_dimen</item>
+        <item name="fontFamily">@font/lato</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.MyApp.TextInputLayout.Rounded" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxStrokeColor">@color/white</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+</resources>
