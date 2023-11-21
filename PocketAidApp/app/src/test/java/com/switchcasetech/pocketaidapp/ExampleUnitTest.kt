@@ -1,4 +1,4 @@
-package com.switchcasetech.mentalmatch
+package com.switchcasetech.pocketaidapp
 
 import org.junit.Test
 

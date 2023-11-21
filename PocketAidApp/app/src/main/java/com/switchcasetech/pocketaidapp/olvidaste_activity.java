@@ -1,21 +1,4 @@
-
-	 
-	/*
-	 *	This content is generated from the API File Info.
-	 *	(Alt+Shift+Ctrl+I).
-	 *
-	 *	@desc 		
-	 *	@file 		olvidaste
-	 *	@date 		Saturday 28th of October 2023 04:07:51 AM
-	 *	@title 		Prototipo
-	 *	@author 	
-	 *	@keywords 	
-	 *	@generator 	Export Kit v1.3.figma
-	 *
-	 */
-	
-
-package exportkit.figma;
+package com.switchcasetech.pocketaidapp;
 
 import android.app.Activity;
 import android.os.Bundle;

@@ -1,21 +1,4 @@
-
-	 
-	/*
-	 *	This content is generated from the API File Info.
-	 *	(Alt+Shift+Ctrl+I).
-	 *
-	 *	@desc 		
-	 *	@file 		info_
-	 *	@date 		Saturday 28th of October 2023 04:39:40 AM
-	 *	@title 		Prototipo
-	 *	@author 	
-	 *	@keywords 	
-	 *	@generator 	Export Kit v1.3.figma
-	 *
-	 */
-	
-
-package exportkit.figma;
+package com.switchcasetech.pocketaidapp;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -57,10 +40,7 @@ public class info__activity extends Activity {
 		_bg__menu_ek1 = (View) findViewById(R.id._bg__menu_ek1);
 		cuadrado = (ImageView) findViewById(R.id.cuadrado);
 		lineas = (ImageView) findViewById(R.id.lineas);
-	
-		
-		//custom code goes here
-	
+
 	}
 }
 	

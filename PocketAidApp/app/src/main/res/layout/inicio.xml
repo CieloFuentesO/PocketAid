@@ -24,13 +24,6 @@
 				android:layout_height="wrap_content"
 				>
 
-				<View   android:id="@+id/_bg__botonhemo_ek1"
-					android:background="@drawable/_bg__botonhemo_ek1_shape"
-					 android:layout_marginStart="0dp"
-					android:layout_marginTop="0dp"
-					android:layout_width="143dp"
-					android:layout_height="182dp" />
-
 				<View   android:id="@+id/fondohemo"
 					android:background="@drawable/fondohemo_shape"
 					 android:layout_marginStart="0dp"
@@ -68,13 +61,6 @@
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
 				>
-
-				<View   android:id="@+id/_bg___botontecnicarcp_ek1"
-					android:background="@drawable/_bg___botontecnicarcp_ek1_shape"
-					 android:layout_marginStart="0dp"
-					android:layout_marginTop="0dp"
-					android:layout_width="143dp"
-					android:layout_height="181dp" />
 
 				<View   android:id="@+id/fondorcp"
 					android:background="@drawable/fondorcp_shape"
@@ -114,13 +100,6 @@
 				android:layout_height="wrap_content"
 				>
 
-				<View   android:id="@+id/_bg__botontecnicarbab_ek1"
-					android:background="@drawable/_bg__botontecnicarbab_ek1_shape"
-					 android:layout_marginStart="0dp"
-					android:layout_marginTop="0dp"
-					android:layout_width="143dp"
-					android:layout_height="181dp" />
-
 				<View   android:id="@+id/fondorbab"
 					android:background="@drawable/fondorbab_shape"
 					 android:layout_marginStart="0dp"
@@ -159,12 +138,6 @@
 				android:layout_height="wrap_content"
 				>
 
-				<View   android:id="@+id/_bg__botonrban_ek1"
-					android:background="@drawable/_bg__botonrban_ek1_shape"
-					 android:layout_marginStart="0dp"
-					android:layout_marginTop="0dp"
-					android:layout_width="143dp"
-					android:layout_height="182dp" />
 
 				<View   android:id="@+id/fondorban"
 					android:background="@drawable/fondorban_shape"
@@ -204,13 +177,6 @@
 				android:layout_height="wrap_content"
 				>
 
-				<View   android:id="@+id/_bg__botonmaniobra_ek1"
-					android:background="@drawable/_bg__botonmaniobra_ek1_shape"
-					 android:layout_marginStart="0dp"
-					android:layout_marginTop="0dp"
-					android:layout_width="143dp"
-					android:layout_height="182dp" />
-
 				<View   android:id="@+id/fondomaniobra"
 					android:background="@drawable/fondomaniobra_shape"
 					 android:layout_marginStart="0dp"
@@ -249,13 +215,6 @@
 				android:layout_height="wrap_content"
 				>
 
-				<View   android:id="@+id/_bg__botonquema_ek1"
-					android:background="@drawable/_bg__botonquema_ek1_shape"
-					 android:layout_marginStart="0dp"
-					android:layout_marginTop="0dp"
-					android:layout_width="143dp"
-					android:layout_height="181dp" />
-
 				<View   android:id="@+id/fondoquema"
 					android:background="@drawable/fondoquema_shape"
 					 android:layout_marginStart="0dp"
@@ -293,13 +252,6 @@
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
 				>
-
-				<View   android:id="@+id/_bg___botonemergencia_ek1"
-					android:background="@drawable/_bg___botonemergencia_ek1_shape"
-					 android:layout_marginStart="0dp"
-					android:layout_marginTop="0dp"
-					android:layout_width="91dp"
-					android:layout_height="91dp" />
 
 				<ImageView android:id="@+id/botonrojo"
 					android:src="@drawable/botonrojo"
@@ -429,13 +381,6 @@
 					android:layout_height="wrap_content"
 					>
 
-					<View   android:id="@+id/_bg__buscador_ek1"
-						android:background="@drawable/_bg__buscador_ek1_shape"
-						 android:layout_marginStart="0dp"
-						android:layout_marginTop="0dp"
-						android:layout_width="267dp"
-						android:layout_height="24dp" />
-
 
 					<RelativeLayout android:id="@+id/search"
 						android:layout_marginTop="0dp"
@@ -443,13 +388,6 @@
 						android:layout_width="wrap_content"
 						android:layout_height="wrap_content"
 						>
-
-						<View   android:id="@+id/_bg__search_ek1"
-							android:background="@drawable/_bg__search_ek1_shape"
-							 android:layout_marginStart="0dp"
-							android:layout_marginTop="0dp"
-							android:layout_width="24dp"
-							android:layout_height="24dp" />
 
 						<ImageView android:id="@+id/circulo"
 							android:src="@drawable/circulo"

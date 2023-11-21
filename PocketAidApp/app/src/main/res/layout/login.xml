@@ -215,21 +215,6 @@
 					android:layout_height="wrap_content"
 					>
 
-					<View   android:id="@+id/_bg__email_ek1"
-						android:background="@drawable/_bg__email_ek1_shape"
-						android:layout_marginStart="0dp"
-						android:layout_marginTop="0dp"
-						android:layout_width="24dp"
-						android:layout_height="24dp" />
-
-					<ImageView android:id="@+id/cuadradocarta"
-						android:src="@drawable/cuadradocarta"
-						android:contentDescription="cuadradocarta"
-						android:layout_marginStart="0dp"
-						android:layout_marginTop="0dp"
-						android:layout_width="24dp"
-						android:layout_height="24dp" />
-
 					<ImageView android:id="@+id/carta"
 						android:src="@drawable/carta"
 						android:contentDescription="carta"
@@ -308,21 +293,6 @@
 						android:layout_height="wrap_content"
 						>
 
-						<View   android:id="@+id/_bg__grupocandado_ek1"
-							android:background="@drawable/_bg__grupocandado_ek1_shape"
-							android:layout_marginStart="0dp"
-							android:layout_marginTop="0dp"
-							android:layout_width="24dp"
-							android:layout_height="24dp" />
-
-						<ImageView android:id="@+id/cuadradocandado"
-							android:src="@drawable/cuadradocandado"
-							android:contentDescription="cuadradocandado"
-							android:layout_marginStart="0dp"
-							android:layout_marginTop="0dp"
-							android:layout_width="24dp"
-							android:layout_height="24dp" />
-
 						<ImageView android:id="@+id/candado"
 							android:src="@drawable/candado"
 							android:contentDescription="candado"
@@ -342,13 +312,6 @@
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
 					>
-
-					<View   android:id="@+id/_bg__ocultaricono_ek1"
-						android:background="@drawable/_bg__ocultaricono_ek1_shape"
-						android:layout_marginStart="0dp"
-						android:layout_marginTop="0dp"
-						android:layout_width="24dp"
-						android:layout_height="24dp" />
 
 					<ImageView android:id="@+id/ojoicono"
 						android:src="@drawable/ojoicono"

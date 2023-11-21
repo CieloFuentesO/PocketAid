@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/content_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/_bg__camara_shape" >
+
+        <ImageView
+            android:id="@+id/fondopasos"
+            android:layout_width="390dp"
+            android:layout_height="321dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="523dp"
+            android:contentDescription="fondopasos"
+            android:src="@drawable/fondopasos" />
+
+        <ImageView
+            android:id="@+id/flecha"
+            android:layout_width="25dp"
+            android:layout_height="11.56dp"
+            android:layout_marginStart="176dp"
+            android:layout_marginTop="536.5dp"
+            android:contentDescription="flecha"
+            android:src="@drawable/flecha" />
+
+
+        <RelativeLayout
+            android:id="@+id/numerouno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="617dp">
+
+            <View
+                android:id="@+id/_bg__numerouno_ek1"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_marginStart="-22dp"
+                android:layout_marginTop="-617dp"
+                android:background="@drawable/_bg__numerouno_ek1_shape" />
+
+            <View
+                android:id="@+id/fondouno"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_marginStart="-1dp"
+                android:layout_marginTop="-1dp"
+                android:background="@drawable/fondouno_shape" />
+
+            <TextView
+                android:id="@+id/textouno"
+                android:layout_width="23dp"
+                android:layout_height="19.5dp"
+                android:layout_gravity="center_horizontal|center"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="@string/textouno_string"
+                android:textColor="@color/textouno_color"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/pasouno"
+            android:layout_width="319.5dp"
+            android:layout_height="32.5dp"
+            android:layout_marginLeft="57dp"
+            android:layout_marginTop="615dp"
+            android:text="@string/pasouno_string"
+            android:textColor="@color/_bg__numerouno_ek1_color"
+            android:textSize="15sp" />
+
+
+        <RelativeLayout
+            android:id="@+id/numerodos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="665dp">
+
+            <View
+                android:id="@+id/_bg__numerodos_ek1"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_marginStart="-22dp"
+                android:layout_marginTop="-665dp"
+                android:background="@drawable/_bg__numerodos_ek1_shape" />
+
+            <View
+                android:id="@+id/fondodos"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_marginStart="-1dp"
+                android:layout_marginTop="-1dp"
+                android:background="@drawable/fondodos_shape" />
+
+            <TextView
+                android:id="@+id/textodos"
+                android:layout_width="23dp"
+                android:layout_height="19.5dp"
+                android:layout_gravity="center_horizontal|center"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="@string/textodos_string"
+                android:textColor="@color/textouno_color"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/pasodos"
+            android:layout_width="319.5dp"
+            android:layout_height="32.5dp"
+            android:layout_marginLeft="57dp"
+            android:layout_marginTop="663dp"
+            android:text="@string/pasodos_string"
+            android:textColor="@color/_bg__numerouno_ek1_color"
+            android:textSize="15sp" />
+
+
+        <RelativeLayout
+            android:id="@+id/numerotres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="713dp">
+
+            <View
+                android:id="@+id/_bg__numerotres_ek1"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_marginStart="-22dp"
+                android:layout_marginTop="-713dp"
+                android:background="@drawable/_bg__numerotres_ek1_shape" />
+
+            <View
+                android:id="@+id/fondotres"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_marginStart="-1dp"
+                android:layout_marginTop="-1dp"
+                android:background="@drawable/fondotres_shape" />
+
+            <TextView
+                android:id="@+id/textotres"
+                android:layout_width="23dp"
+                android:layout_height="19.5dp"
+                android:layout_gravity="center_horizontal|center"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="@string/textotres_string"
+                android:textColor="@color/textouno_color"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/pasotres"
+            android:layout_width="319.5dp"
+            android:layout_height="32.5dp"
+            android:layout_marginLeft="57dp"
+            android:layout_marginTop="711dp"
+            android:text="@string/pasotres_string"
+            android:textColor="@color/_bg__numerouno_ek1_color"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tituloemergencia"
+            android:layout_width="347dp"
+            android:layout_height="32.7dp"
+            android:layout_gravity="center_horizontal|center"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="567dp"
+            android:gravity="center"
+            android:text="@string/tituloemergencia_string"
+            android:textColor="@color/_bg__numerouno_ek1_color"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textonumeroemergencias"
+            android:layout_width="347dp"
+            android:layout_height="32.7dp"
+            android:layout_gravity="center_horizontal|center"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="776dp"
+            android:gravity="center"
+            android:text="@string/textonumeroemergencias_string"
+            android:textColor="@color/_bg__numerouno_ek1_color"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

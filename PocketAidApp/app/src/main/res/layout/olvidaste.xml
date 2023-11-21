@@ -160,21 +160,6 @@
 					android:layout_height="wrap_content"
 					>
 
-					<View   android:id="@+id/_bg__email_ek1"
-						android:background="@drawable/_bg__email_ek1_shape"
-						 android:layout_marginStart="0dp"
-						android:layout_marginTop="0dp"
-						android:layout_width="24dp"
-						android:layout_height="24dp" />
-
-					<ImageView android:id="@+id/cuadradocarta"
-						android:src="@drawable/cuadradocarta"
-						android:contentDescription="cuadradocarta"
-						 android:layout_marginStart="0dp"
-						android:layout_marginTop="0dp"
-						android:layout_width="24dp"
-						android:layout_height="24dp" />
-
 					<ImageView android:id="@+id/carta"
 						android:src="@drawable/carta"
 						android:contentDescription="carta"

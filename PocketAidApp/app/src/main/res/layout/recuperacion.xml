@@ -24,13 +24,6 @@
 				android:layout_height="wrap_content"
 				>
 
-				<View   android:id="@+id/_bg__titulorecupera_ek1"
-					android:background="@drawable/_bg__titulorecupera_ek1_shape"
-					 android:layout_marginStart="-51dp"
-					android:layout_marginTop="-46dp"
-					android:layout_width="288.18dp"
-					android:layout_height="113.06dp" />
-
 				<TextView android:id="@+id/titulorecuperacion"
 					android:textStyle="bold"
 					android:layout_gravity="center_horizontal|center"
@@ -136,21 +129,6 @@
 						android:layout_height="wrap_content"
 						>
 
-						<View   android:id="@+id/_bg__grupocandado_ek1"
-							android:background="@drawable/_bg__grupocandado_ek1_shape"
-							 android:layout_marginStart="0dp"
-							android:layout_marginTop="0dp"
-							android:layout_width="24dp"
-							android:layout_height="24dp" />
-
-						<ImageView android:id="@+id/cuadradocandado"
-							android:src="@drawable/cuadradocandado"
-							android:contentDescription="cuadradocandado"
-							 android:layout_marginStart="0dp"
-							android:layout_marginTop="0dp"
-							android:layout_width="24dp"
-							android:layout_height="24dp" />
-
 						<ImageView android:id="@+id/candado"
 							android:src="@drawable/candado"
 							android:contentDescription="candado"
@@ -170,13 +148,6 @@
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
 					>
-
-					<View   android:id="@+id/_bg__ocultaricono_ek1"
-						android:background="@drawable/_bg__ocultaricono_ek1_shape"
-						 android:layout_marginStart="0dp"
-						android:layout_marginTop="0dp"
-						android:layout_width="24dp"
-						android:layout_height="24dp" />
 
 					<ImageView android:id="@+id/ojoicono"
 						android:src="@drawable/ojoicono"
@@ -256,21 +227,6 @@
 						android:layout_height="wrap_content"
 						>
 
-						<View   android:id="@+id/_bg__grupocandado_ek3"
-							android:background="@drawable/_bg__grupocandado_ek3_shape"
-							 android:layout_marginStart="0dp"
-							android:layout_marginTop="0dp"
-							android:layout_width="24dp"
-							android:layout_height="24dp" />
-
-						<ImageView android:id="@+id/cuadradocandado_ek1"
-							android:src="@drawable/cuadradocandado_ek1"
-							android:contentDescription="cuadradocandado_ek1"
-							 android:layout_marginStart="0dp"
-							android:layout_marginTop="0dp"
-							android:layout_width="24dp"
-							android:layout_height="24dp" />
-
 						<ImageView android:id="@+id/candado_ek1"
 							android:src="@drawable/candado_ek1"
 							android:contentDescription="candado_ek1"
@@ -290,13 +246,6 @@
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
 					>
-
-					<View   android:id="@+id/_bg__ocultaricono_ek3"
-						android:background="@drawable/_bg__ocultaricono_ek3_shape"
-						 android:layout_marginStart="0dp"
-						android:layout_marginTop="0dp"
-						android:layout_width="24dp"
-						android:layout_height="24dp" />
 
 					<ImageView android:id="@+id/ojoicono_ek1"
 						android:src="@drawable/ojoicono_ek1"

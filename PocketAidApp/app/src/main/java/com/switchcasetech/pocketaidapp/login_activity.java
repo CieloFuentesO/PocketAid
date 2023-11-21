@@ -1,4 +1,4 @@
-package exportkit.figma;
+package com.switchcasetech.pocketaidapp;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -9,7 +9,7 @@ import android.widget.TextView;
 import android.widget.ImageView;
 import android.content.Intent;
 
-import com.switchcasetech.mentalmatch.R;
+import com.switchcasetech.pocketaidapp.R;
 
 	public class login_activity extends Activity {
 

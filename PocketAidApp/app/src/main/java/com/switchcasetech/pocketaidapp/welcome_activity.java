@@ -1,4 +1,4 @@
-package exportkit.figma;
+package com.switchcasetech.pocketaidapp;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
-import com.switchcasetech.mentalmatch.R;
+import com.switchcasetech.pocketaidapp.R;
 
 	public class welcome_activity extends Activity {
 

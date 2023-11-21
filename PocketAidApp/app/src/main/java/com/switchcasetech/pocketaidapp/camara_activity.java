@@ -1,21 +1,5 @@
 
-	 
-	/*
-	 *	This content is generated from the API File Info.
-	 *	(Alt+Shift+Ctrl+I).
-	 *
-	 *	@desc 		
-	 *	@file 		camara
-	 *	@date 		Saturday 28th of October 2023 04:51:16 AM
-	 *	@title 		Prototipo
-	 *	@author 	
-	 *	@keywords 	
-	 *	@generator 	Export Kit v1.3.figma
-	 *
-	 */
-	
-
-package exportkit.figma;
+package com.switchcasetech.pocketaidapp;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -91,9 +75,7 @@ public class camara_activity extends Activity {
 		cuadrado = (ImageView) findViewById(R.id.cuadrado);
 		lineas = (ImageView) findViewById(R.id.lineas);
 	
-		
-		//custom code goes here
-	
+
 	}
 }
 	
